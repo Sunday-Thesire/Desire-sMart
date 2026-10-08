@@ -1,0 +1,197 @@
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background: #fff;
+  color: #333;
+}
+
+
+.site-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px 30px;
+  background: #f8f8f8;
+  border-bottom: 1px solid #ddd;
+}
+
+.header-actions {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+
+.brand {
+  font-size: 24px;
+  font-weight: bold;
+  color: #e67e22;
+}
+
+.brand span {
+  color: #27ae60;
+}
+
+nav {
+  display: flex;
+  gap: 30px;
+  font-size: 14px;
+}
+
+nav a {
+  text-decoration: none;
+  color: #333;
+}
+
+.header-actions a {
+  text-decoration: none;
+  color: #333;
+  font-size: 14px;
+}
+
+.sign-up {
+  background: #e67e22;
+  color: #fff;
+  padding: 8px 15px;
+  border-radius: 5px;
+}
+
+.hero {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 40px 30px;
+  background: #f9f9f9;
+}
+
+.hero h1 {
+  font-size: 36px;
+  margin-bottom: 15px;
+}
+
+.hero h1 span {
+  color: #27ae60;
+}
+
+.hero-content p {
+  margin-bottom: 20px;
+  color: #555;
+}
+
+form {
+  display: flex;
+  margin-bottom: 20px;
+}
+
+form input {
+  padding: 8px;
+  border: 1px solid #ccc;
+  flex: 0.95;
+}
+
+form button {
+  background: #e67e22;
+  border: none;
+  color: #fff;
+  padding: 0 15px;
+  
+}
+
+form svg {
+  width: 16px;
+  height: 16px;
+
+}
+
+.benefits {
+  display: flex;
+  flex-direction: row;
+  gap: 15px;
+  flex-wrap: wrap;
+}
+
+.benefits li {
+  background: #27ae60;
+  color: #fff;
+  padding: 5px 10px;
+  border-radius: 15px;
+  font-size: 14px;
+}
+
+
+.hero-image {
+  display: flex;
+  gap: 20px;
+}
+
+#Groceries-man {
+  width: 500px;
+  height: 450px;
+  
+}
+
+.product-cards {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.product-cards div {
+  border: 1px solid #ddd;
+  padding: 10px;
+  text-align: center;
+  background: #fff;
+  border-radius: 8px;
+}
+
+.product-cards img {
+  width: 100px;
+  border-radius: 5px;
+}
+
+.product-cards p {
+  margin: 10px 0 5px;
+  font-weight: bold;
+}
+
+.product-cards span {
+  color: #27ae60;
+}
+
+
+.categories {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  padding: 30px;
+  gap: 20px;
+}
+
+.categories div{
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.categories img {
+  max-width: 40px;
+  margin-bottom: 10px;
+}
+
+.categories h2 {
+  font-size: 18px;
+  align-items: center;
+  margin-bottom: 8px;
+  color: #27ae60;
+}
+
+.categories p {
+  font-size: 14px;
+  color: #717070;
+  margin-bottom: 20px;
+}
